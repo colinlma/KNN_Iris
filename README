@@ -1,0 +1,17 @@
+This is a mini project in python 2.7 I took on to get some hands on experience with a fundamental algorithm for machine learning, KNN. This is specifically designed for the iris data set. Before reading about what K to use I wanted to see for myself how different K's affect the accuracy.
+
+To run the script make sure you have the iris data in the same folder as KNN_iris.py
+You can download the dataset here:
+https://archive.ics.uci.edu/ml/datasets/Iris
+
+KNN_Iris.py takes 3 arguments:
+The number of test cases to be run for each K.
+The starting K
+The ending K
+
+The script runs the algorithm on starting K to ending K (inclusive)
+and prints out the accuracy of the results in decreasing accuracy.
+
+Things to work on for the future:
+Normalize the data points to improve accuracy
+Try different distances such as the Manhattan distance or vector dot product
